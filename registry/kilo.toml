@@ -1,0 +1,4 @@
+aliases = ["kilocode"]
+backends = ["npm:@kilocode/cli"]
+description = "Kilo Code CLI - The AI coding agent for the terminal. Generate code from natural language, automate tasks, and run terminal commands — powered by 500+ AI models."
+test = { cmd = "kilo --version", expected = "{{version}}" }
